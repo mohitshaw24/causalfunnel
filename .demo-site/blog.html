@@ -1,0 +1,35 @@
+<!-- Add this to the top of each page -->
+<nav style="background: #333; padding: 10px; margin-bottom: 20px;">
+    <a href="demo.html" style="color: white; margin-right: 20px;">Home</a>
+    <a href="product.html" style="color: white; margin-right: 20px;">Product</a>
+    <a href="blog.html" style="color: white; margin-right: 20px;">Blog</a>
+    <a href="contact.html" style="color: white;">Contact</a>
+</nav>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog Post - Tech Blog</title>
+    <style>
+        body { font-family: Georgia, serif; padding: 40px; max-width: 700px; margin: 0 auto; line-height: 1.6; }
+        .article { background: #f9f9f9; padding: 30px; border-radius: 8px; }
+        .like-btn { background: #e74c3c; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
+        .comment-box { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>📝 Tech Blog</h1>
+    <div class="article">
+        <h2>Why React is the Future of Web Development</h2>
+        <p>React has revolutionized how we build user interfaces. Its component-based architecture makes code reusable and maintainable...</p>
+        <p>In this article, we'll explore why React dominates the frontend landscape and how it compares to other frameworks...</p>
+        
+        <button class="like-btn">❤️ Like this article</button>
+        
+        <h3>Leave a Comment</h3>
+        <textarea class="comment-box" rows="4" placeholder="Share your thoughts..."></textarea>
+        <button class="like-btn" style="background: #3498db;">Post Comment</button>
+    </div>
+    
+    <script src="tracker.js"></script>
+</body>
+</html>
