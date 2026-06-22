@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tracking Test Page</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            padding: 40px; 
+            max-width: 800px; 
+            margin: 0 auto;
+        }
+        h1 { color: #333; }
+        .button { 
+            background: #007bff; 
+            color: white; 
+            padding: 12px 24px; 
+            border: none; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            margin: 10px 0;
+        }
+        .button:hover { background: #0056b3; }
+        .content { 
+            background: #f5f5f5; 
+            padding: 20px; 
+            border-radius: 8px; 
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎯 CausalFunnel Test Page</h1>
+    <p>Click anywhere on this page to test the tracking system!</p>
+    
+    <button class="button">Click Me Button 1</button>
+    <button class="button">Click Me Button 2</button>
+    
+    <div class="content">
+        <h2>Test Content Area</h2>
+        <p>Try clicking on different parts of this page - buttons, text, empty spaces.</p>
+        <p>Each click will be tracked and sent to your backend.</p>
+    </div>
+    
+    <div class="content">
+        <h3>Another Section</h3>
+        <p>Refresh the page to generate a new page_view event.</p>
+    </div>
+
+    <!-- Load the tracker script -->
+    <script src="tracker.js"></script>
+</body>
+</html>

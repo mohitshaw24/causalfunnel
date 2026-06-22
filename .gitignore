@@ -1,0 +1,9 @@
+# Ignore node modules everywhere
+node_modules/
+
+# Ignore environment variables (YOUR PASSWORDS)
+.env
+
+# Ignore build files
+dist/
+build/
