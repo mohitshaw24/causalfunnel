@@ -1,5 +1,5 @@
 (function() {
-    const API_URL = 'http://localhost:5000/api/events';
+    const API_URL = 'https://causalfunnel-backend-i5fy.onrender.com/api/events';
     console.log('🎯 Tracker loaded! API URL:', API_URL); // ADD THIS
 
     function getSessionId() {
