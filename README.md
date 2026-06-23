@@ -49,7 +49,7 @@ To run this project locally, you will need **Node.js** and a running **MongoDB**
 
 Create a .env file inside the backend folder and add your MongoDB connection string:
 
-* mongodb://<username>:<password>@ac-sklk55o-shard-00-00.dfj3soz.mongodb.net:27017,ac-sklk55o-shard-00-01.dfj3soz.mongodb.net:27017,ac-sklk55o-shard-00-  02.dfj3soz.mongodb.net:27017/causalfunnel?ssl=true&replicaSet=atlas-5m8ovf-shard-0&authSource=admin&appName=Cluster0
+* mongodb://your_db_username:your_db_password@ac-sklk55o-shard-00-00.dfj3soz.mongodb.net:27017,ac-sklk55o-shard-00-01.dfj3soz.mongodb.net:27017,ac-sklk55o-shard-00-  02.dfj3soz.mongodb.net:27017/causalfunnel?ssl=true&replicaSet=atlas-5m8ovf-shard-0&authSource=admin&appName=Cluster0
 * PORT = 5000
 
 **Start the backend server**
