@@ -39,6 +39,6 @@ To run this project locally, you will need **Node.js** and a running **MongoDB**
 
 ### 1. Clone the Repository
 
-git clone https://github.com/mohitshaw24/causalfunnel.git
-cd causalfunnel
+* git clone https://github.com/mohitshaw24/causalfunnel.git
+* cd causalfunnel
 
