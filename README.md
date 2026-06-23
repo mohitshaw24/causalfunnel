@@ -42,3 +42,32 @@ To run this project locally, you will need **Node.js** and a running **MongoDB**
 * git clone https://github.com/mohitshaw24/causalfunnel.git
 * cd causalfunnel
 
+### 2. Backend Setup
+
+* cd backend
+* npm install
+
+Create a .env file inside the backend folder and add your MongoDB connection string:
+
+* mongodb://<username>:<password>@ac-sklk55o-shard-00-00.dfj3soz.mongodb.net:27017,ac-sklk55o-shard-00-01.dfj3soz.mongodb.net:27017,ac-sklk55o-shard-00-  02.dfj3soz.mongodb.net:27017/causalfunnel?ssl=true&replicaSet=atlas-5m8ovf-shard-0&authSource=admin&appName=Cluster0
+* PORT = 5000
+
+**Start the backend server**
+* node server.js
+
+### 3. Frontend Setup
+
+* Open a new terminal window
+* cd frontend
+* npm install
+* npm run dev
+
+* The dashboard will be available at http://localhost:5173
+
+### 4. Demo Site Setup
+
+* To generate tracking data, open the demo-site/demo.html file using a local server (like the VS Code Live Server extension) to avoid browser CORS restrictions with the file:// protocol.
+* Click around the demo pages, then refresh your dashboard to see the data!
+
+### 📂 Project Structure
+<img width="497" height="363" alt="image" src="https://github.com/user-attachments/assets/89b1bca2-636d-4ba8-af5a-b528bf2a89b7" />
